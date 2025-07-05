@@ -1,4 +1,4 @@
-/*
+/* Đề bài:
 Cô giáo Trang chuẩn bị kẹo để phát cho các bé mà cô đang giữ. Dĩ nhiên môi bé đều có một tên gọi rất dễ thương ví dụ: Mạnh Phát, Diễm Quỳnh, Đăng Khoa, ... 
  Tuy nhiên, để đơn giản vấn đề ta có thể giả sử các em được đánh số từ 1 đến n.
  Cô giáo muốn rằng tất cả các em đều phải có kẹo. Cô lại biết thêm rằng có một số bé có ý muốn hơn bạn mình một chút vì thế các em ấy muốn kẹo của mình nhiều hơn của bạn.
@@ -15,13 +15,16 @@ Dữ liệu đầu vào được nhập từ bàn phím với định dạng:
 Xem thêm các ví dụ để hiểu thêm về đầu vào và đầu ra.
 For example:
 
-Input	    Result
-3 2         3
-1 3         1
-3 2         2
-            6
+Input	  |  Result
+---------------------
+3 2     |   3
+1 3     |   1
+3 2     |   2
+        |   6
+----------------------
 */
 
+/*CODE*/
 #include <stdio.h>
 
 #define MAX_N 100
