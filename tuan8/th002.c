@@ -5,7 +5,7 @@ Viết chương trình đọc vào một đồ thị có hướng không chu tr�
     -Dòng đầu tiên chứa 2 số nguyên n và m, tương ứng là số đỉnh và số cung.
     -m dòng tiếp theo mỗi dòng chứa 2 số nguyên u, v mô tả cung (u, v).
 Đầu ra (Output)
-  In các đỉnh ra màn hình theo thứ tự topo. In các đỉnh trên một dòng, cách nhau 1 khoảng trắng.
+  -In các đỉnh ra màn hình theo thứ tự topo. In các đỉnh trên một dòng, cách nhau 1 khoảng trắng.
 Gợi ý
 Ngoài giải thuật sắp xếp topo dựa trên phương pháp duyệt theo chiều rộng, ta cũng có thể sắp xếp topo dựa trên duyệt theo chiều sâu.
 void dfs(G, u, L) {
